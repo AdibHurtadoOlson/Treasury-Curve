@@ -1,0 +1,5 @@
+bond_id,face_value,coupon_rate,maturity_years,frequency,quantity
+UST_PROXY_2Y,1000000,0.040,2.0,2,1
+UST_PROXY_5Y,1000000,0.042,5.0,2,1
+UST_PROXY_10Y,1000000,0.045,10.0,2,1
+UST_PROXY_20Y,500000,0.047,20.0,2,1

@@ -1,0 +1,44 @@
+{
+  "data_source": "Federal Reserve Bank of St. Louis FRED daily Treasury CMT series",
+  "valuation_date": "2026-10-26",
+  "yield_units": "decimal annual rates internally; source quotes were percentage values",
+  "curve_method": "Nelson-Siegel fit to Treasury constant-maturity yield quotes; not an arbitrage-free bootstrapped zero curve",
+  "curve_fit": {
+    "beta0": 0.053712224652099946,
+    "beta1": -0.011901847597090145,
+    "beta2": -3.627058285870168e-07,
+    "tau": 2.1919693393401927,
+    "n_observations": 11,
+    "rmse": 0.0007793715640312058,
+    "max_abs_residual": 0.0011305377258164426,
+    "success": true
+  },
+  "portfolio_market_value_proxy": 3371464.209090196,
+  "portfolio_position_dv01_per_bp_proxy": 1998.8725857289392,
+  "weighted_average_effective_duration": 5.92879669414715,
+  "portfolio_key_rate_dv01": {
+    "DGS1MO": 0.0,
+    "DGS3MO": 0.0,
+    "DGS6MO": 3.6823404200549703,
+    "DGS1": 14.315762298414484,
+    "DGS2": 207.6063783306745,
+    "DGS3": 150.70948576633236,
+    "DGS5": 463.51989113277523,
+    "DGS7": 234.7769128270156,
+    "DGS10": 1091.6023448880878,
+    "DGS20": 435.9648748440377,
+    "DGS30": 0.0
+  },
+  "scenario_pnl": {
+    "parallel_up_100bp": -190490.66673553223,
+    "parallel_down_100bp": 210160.9801728325,
+    "bear_steepener": -167691.97865705518,
+    "bull_steepener": 126601.73266639607,
+    "belly_selloff": -85945.06614033505
+  },
+  "notes": [
+    "Bond cash flows are stylized configurable proxies, not live CUSIP quotes.",
+    "Curve-based valuations use continuous-compounding fitted CMT yields as a practical approximation.",
+    "Settlement, accrued interest, coupon calendars, and day-count conventions are not modeled."
+  ]
+}
